@@ -3,6 +3,7 @@ This project analyzes the evolution of color usage in competition boards submitt
 
 ## Project Structure
 
+```
 project_root/
 │
 ├── europan_competitions_archive.xlsx    # Metadata file mapping projects to Europan editions
@@ -18,6 +19,8 @@ project_root/
 │   └── ...
 ├── europan.ipynb                        # Main analysis notebook
 └── color_evolution_by_edition.csv       # Cached DataFrame for fast plotting (optional)
+
+```
 
 ## Setup
 
@@ -37,7 +40,7 @@ Install libraries using:
 
 Download an html file from: https://www.europan-europe.eu/fr/project-and-processes/ and save as project-and-processes.html. Make sure to scroll all the way down to get all Europan Projects. 
 
-
+## Use Europan.ipynb to create this graph: 
 
 ![alt text](documentation/color_graph.png "Title")
 
